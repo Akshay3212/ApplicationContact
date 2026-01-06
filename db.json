@@ -1,0 +1,62 @@
+{
+  "Contact": [
+    {
+      "id": "04",
+      "Name": "Ram",
+      "Company": "JCB",
+      "Email": "akshbabar2014@gmail.com",
+      "Title": "production",
+      "Mobile": "7045317002",
+      "Photo": "https://tse1.mm.bing.net/th?id=OIP.x2ZuVOX1eBPF5CTM6TWG1QHaHP&pid=Api&P=0&h=180",
+      "GroupId": "4"
+    },
+    {
+      "id": "bfeb",
+      "Name": "Ram Chauhan",
+      "Photo": "https://www.freeiconspng.com/uploads/logo-whatsapp-png-file-15.png",
+      "Email": "akshbabar3212@gmail.com",
+      "Mobile": 9890463212,
+      "Company": "Accenture",
+      "Title": "Web Developer",
+      "GroupId": "1"
+    },
+    {
+      "id": "52a7",
+      "Name": "Akshay Babar",
+      "Photo": "https://th.bing.com/th/id/OIP.enG2QUteotudVRb6SlpX8wHaHZ?rs=1&pid=ImgDetMain",
+      "Email": "akshbabar3212@gmail.com",
+      "Mobile": 9890463212,
+      "Company": "Accenture",
+      "Title": "Web Developer",
+      "GroupId": "2"
+    },
+    {
+      "id": "312d",
+      "Name": "Akshay Shinde",
+      "Email": "Visha@gmail.com",
+      "Mobile": 7045317002,
+      "Company": "Vishal& Sons",
+      "GroupId": "1",
+      "Title": "Supervoiser",
+      "Photo": "https://tse2.mm.bing.net/th/id/OIP.gdNVfcnAjQURwqcuGIDHAQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+    }
+  ],
+  "Groups": [
+    {
+      "id": "1",
+      "Name": "Friend"
+    },
+    {
+      "id": "2",
+      "Name": "Relative"
+    },
+    {
+      "id": "3",
+      "Name": "Family"
+    },
+    {
+      "id": "4",
+      "Name": "Classmate"
+    }
+  ]
+}

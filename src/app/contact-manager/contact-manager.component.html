@@ -1,0 +1,59 @@
+<div class="container  mt-4">
+    <div class="row">
+        <div class="col">
+            <p class="h3">Akshay Contact Application
+                <a class='btn btn-success' href="/contact/add"> <i class="fa fa-plus-circle">&nbsp;</i>Add New</a>
+            </p>
+            <p style="font-style: italic;" class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Labore, eveniet corporis nisi obcaecati natus perspiciatis minima nam necessitatibus non aut illo animi
+                rerum dolor, architecto nihil facere tempora totam eos incidunt inventore exercitationem dicta! Nostrum,
+                reiciendis earum? Dolorum doloribus natus fuga nesciunt laudantium unde odit facere nulla molestias
+                suscipit? Pariatur delectus minima sunt quae dignissimos a est. Distinctio amet ipsam eos reprehenderit
+                unde porro a cumque iure quas labore illo, totam autem dignissimos tenetur praesentium eveniet ipsum,
+                provident id maiores eaque placeat quis pariatur. Odio nihil recusandae voluptas quibusdam vel
+                temporibus eligendi debitis iure consectetur natus fugit, voluptates adipisci est!</p>
+
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input class="form-control" placeholder="Search Contact">
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-outline-dark">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <pre>{{Contacts|json}}</pre> -->
+<!-- Cart Design -->
+<div class="container mt-5">
+    <div class="row">
+        <div   *ngFor="let data of Contacts" class="col-md-6">
+            <div class="card my-2 " style="background-color:rgb(139, 0, 90);">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col md-4">
+                            <img [src]="data.Photo" class="contact-img">
+                        </div>
+                        <div class="col md-7" style="margin-left: 5px;">
+                            <ul class="list-group">
+                                <li class="list-group-item">Name:<span class="fw-bold">{{data.Name}}</span></li>
+                                <li class="list-group-item">Email:<span
+                                        class="fw-bold">{{data.Email}}</span></li>
+                                <li class="list-group-item">Mobile:<span class="fw-bold">{{data.Mobile}}</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2">
+                            <a routerLink="/contact/edit/{{data.id}}" class="btn btn-warning"> <i class="fa fa-edit"> </i></a>
+                            <a routerLink="/contact/view/{{data.id}}" class="btn btn-success mt-1"> <i class="fa fa-eye">
+                                </i></a>
+                            <button class="btn btn-danger mt-1"><i class="fa fa-trash " (click)="delete(data.id)"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
